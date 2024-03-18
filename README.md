@@ -72,5 +72,10 @@ yarn preview
 bun run preview
 ```
 
+for GO backend
+```bash
+#GO backend
+go run main.go
+```
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 # kro-gamestore
