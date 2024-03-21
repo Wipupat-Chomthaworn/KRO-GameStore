@@ -30,7 +30,7 @@ func S3uploader(c *gin.Context) {
 
 	client := s3.NewFromConfig(awsCfg)
 
-	bucketName := "kro-gamestore"
+	bucketName := "kro-gamestore-owen"
 	var imageUrls []string
 
 	for _, files := range c.Request.MultipartForm.File {
