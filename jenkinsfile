@@ -1,6 +1,7 @@
 pipeline {
     agent any
 
+
     environment {
         REMOTE_HOST     = 'ubuntu@54.197.82.79'
         SSH_CREDENTIALS = 'sshaws'
