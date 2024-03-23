@@ -35,7 +35,7 @@ func S3uploader(c *gin.Context) {
 
 	for _, files := range c.Request.MultipartForm.File {
 		for _, file := range files {
-			objectKey := uuid.NewString() + ".png"
+			objectKey := uuid.NewString() + ".jpg"
 			src, err := file.Open()
 			if err != nil {
 				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
