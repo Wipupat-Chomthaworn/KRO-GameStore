@@ -88,8 +88,8 @@ go run main.go
 The application is deployed on AWS using Jenkins for CI/CD, Docker for containerization, and CloudFormation for infrastructure management.
 
 ## AWS Architecture
-![AWS Architecture Diagram Old](images/AWS architect old.png)
-![AWS Architecture Diagram](images/AWS architect new.png)
+![AWS Architecture Diagram Old](Images and document/AWS architect old.png)
+![AWS Architecture Diagram](Images and document/AWS architect new.png)
 
 
 ## Lessons Learned
