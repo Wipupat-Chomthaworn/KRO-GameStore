@@ -1,10 +1,25 @@
-# Nuxt 3 Minimal Starter
+# KRO-GameStore
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+KRO-GameStore is a web application for managing a second-hand game store, built with Nuxt.js and Go. The project is deployed on AWS with CI/CD using Jenkins, Docker, and CloudFormation.
+
+## Features
+
+- Game listing and management
+- User authentication
+- Responsive design
+- High availability with Elastic Load Balancer and multiple Availability Zones
+
+## Technologies Used
+
+- Frontend: Nuxt.js, Vue.js
+- Backend: Go
+- CI/CD: Jenkins, Docker, CloudFormation
+- AWS: EC2, DynamoDB, S3, Elastic Load Balancer
+- Other: Tailwind CSS
 
 ## Setup
 
-Make sure to install the dependencies:
+### Install Dependencies
 
 ```bash
 # npm
@@ -19,11 +34,8 @@ yarn install
 # bun
 bun install
 ```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+### Development Server
+Start the development server at http://localhost:3000:
 ```bash
 # npm
 npm run dev
@@ -37,11 +49,8 @@ yarn dev
 # bun
 bun run dev
 ```
-
-## Production
-
+### Production
 Build the application for production:
-
 ```bash
 # npm
 npm run build
@@ -55,9 +64,7 @@ yarn build
 # bun
 bun run build
 ```
-
-Locally preview production build:
-
+Preview the production build locally:
 ```bash
 # npm
 npm run preview
@@ -71,18 +78,19 @@ yarn preview
 # bun
 bun run preview
 ```
-
-for GO backend
+## Backend
+Run the Go backend:
 ```bash
-#GO backend
 go run main.go
 ```
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# kro-gamestore
+
 ## Deployment
 The application is deployed on AWS using Jenkins for CI/CD, Docker for containerization, and CloudFormation for infrastructure management.
 
+## AWS Architecture
+`path/to/aws-architecture-diagram.png`
+
 ## Lessons Learned
-### CI/CD Benefits: Streamlined development and reduced errors.
-### AWS Optimization: Efficient use of resources for cost efficiency.
-### Collaboration: Importance of clear communication in cross-functional teams.
+- CI/CD Benefits: Streamlined development and reduced errors.
+- AWS Optimization: Efficient use of resources for cost efficiency.
+- Collaboration: Importance of clear communication in cross-functional teams.
