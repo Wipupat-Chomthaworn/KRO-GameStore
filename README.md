@@ -88,7 +88,9 @@ go run main.go
 The application is deployed on AWS using Jenkins for CI/CD, Docker for containerization, and CloudFormation for infrastructure management.
 
 ## AWS Architecture
-`path/to/aws-architecture-diagram.png`
+![AWS Architecture Diagram Old](images/AWS architect old.png)
+![AWS Architecture Diagram](images/AWS architect new.png)
+
 
 ## Lessons Learned
 - CI/CD Benefits: Streamlined development and reduced errors.
