@@ -79,3 +79,10 @@ go run main.go
 ```
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 # kro-gamestore
+## Deployment
+The application is deployed on AWS using Jenkins for CI/CD, Docker for containerization, and CloudFormation for infrastructure management.
+
+## Lessons Learned
+### CI/CD Benefits: Streamlined development and reduced errors.
+### AWS Optimization: Efficient use of resources for cost efficiency.
+### Collaboration: Importance of clear communication in cross-functional teams.
